@@ -59,10 +59,17 @@ class Contenedor {
         fs.writeFileSync(this.archivo, JSON.stringify(newObjects));
         console.log(newObjects)
     }
-
-    deleteAll(){
-       const deleteAll = fs.writeFileSync(this.archivo, JSON.stringify([]))
-       console.log(`Archivos borrados`)
+    deleteAll() {
+        let archivo = this.archivo
+        async function deleteItems(){
+        try {
+            await fs.promises.writeFile(archivo, "")
+            console.log("Archivo eliminado")
+            }
+            catch (error) {
+            console.log(error)
+            }
+        } deleteItems()
     }
 }
 
