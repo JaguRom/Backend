@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Palta",
+    "price": 150,
+    "thumbnail": "https://via.placeholder.com/150",
+    "id": 1
+  },
+  {
+    "title": "Melon",
+    "price": 150,
+    "thumbnail": "https://via.placeholder.com/150",
+    "id": 2
+  },
+  {
+    "title": "Sandia",
+    "price": 300,
+    "thumbnail": "https://via.placeholder.com/150",
+    "id": 3
+  }
+]
